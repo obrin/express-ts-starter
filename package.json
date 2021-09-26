@@ -11,6 +11,9 @@
     "prettier:fix": "npx prettier --write src",
     "test": "jest"
   },
+  "engines": {
+    "node": ">=16.7.0"
+  },
   "dependencies": {
     "@prisma/client": "^2.30.0",
     "@types/express": "^4.17.13",

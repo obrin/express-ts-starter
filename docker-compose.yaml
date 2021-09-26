@@ -1,0 +1,15 @@
+version: '3.7'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./src:/usr/src/app/src
+    container_name: express-ts-starter
+    expose:
+      - '5000'
+    ports:
+      - '5000:5000'
+    command: yarn start:dev
