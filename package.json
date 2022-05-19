@@ -23,7 +23,7 @@
   "devDependencies": {
     "@types/jest": "^27.0.1",
     "@types/node": "^16.7.4",
-    "@types/supertest": "^2.0.11",
+    "@types/supertest": "2.0.12",
     "babel-jest": "^27.1.0",
     "jest": "^27.1.0",
     "nodemon": "^2.0.12",
