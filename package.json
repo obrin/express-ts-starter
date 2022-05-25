@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "start": "ts-node src/index.ts",
-    "start:dev": "nodemon --watch '.src/**/*.ts' --exec 'ts-node' src/index.ts",
+    "start:dev": "nodemon src/index.ts",
     "prettier:check": "npx prettier --check src",
     "prettier:fix": "npx prettier --write src",
     "test": "jest"
