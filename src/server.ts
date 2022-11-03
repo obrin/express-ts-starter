@@ -1,5 +1,4 @@
 import * as express from 'express'
-import * as bodyParser from 'body-parser'
 import createGenericRoutes from './routes/generic'
 
 const config = {
@@ -11,7 +10,7 @@ const config = {
 
 export const createServer = () => {
   const app = express()
-  app.use(bodyParser.json())
+  app.use(express.json())
 
   const router = express.Router()
 
