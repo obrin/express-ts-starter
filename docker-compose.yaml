@@ -7,7 +7,7 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ./src:/usr/src/app/src
-    container_name: express-ts-starter
+    container_name: express-01
     expose:
       - '5000'
     ports:
