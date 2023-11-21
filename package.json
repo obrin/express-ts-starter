@@ -21,7 +21,7 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "@types/jest": "29.5.8",
+    "@types/jest": "29.5.9",
     "@types/node": "20.9.2",
     "@types/supertest": "2.0.16",
     "babel-jest": "29.7.0",
